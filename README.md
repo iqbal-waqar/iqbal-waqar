@@ -1,99 +1,123 @@
-# 💫 About Me
+<h1 align="center">Hi, I'm Waqar Iqbal 👋</h1>
 
-Hi, I’m **Waqar Iqbal**, a Computer Science undergraduate studying at **COMSATS University Islamabad (CUI), Sahiwal Campus**.
+<p align="center">
+  <b>AI & Backend Engineer</b> · Agentic AI · RAG · Voice AI · Workflow Automation
+</p>
 
-I’m an **AI enthusiast** with a strong focus on **Agentic AI, RAG-based systems, and backend development**.
-
-I enjoy building **practical, intelligent AI applications** using **Python and FastAPI**, and I have hands-on experience with:
-
-- LangChain  
-- LangGraph  
-- LLM workflows  
-- FastAPI backend systems  
-
-My work mainly revolves around:
-
-- Designing scalable backends  
-- Building autonomous AI agents  
-- Developing Retrieval-Augmented Generation (RAG) systems  
-- Creating real-world AI solutions  
-
-Currently, I’m exploring:
-
-- Advanced agent-to-agent communication  
-- Enterprise RAG architectures  
-- AI automation  
-- PostgreSQL and MySQL  
-
-I’m passionate about **learning, experimenting, and turning ideas into working products 🚀**
+<p align="center">
+  <a href="https://iqbal-waqar.github.io"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=white" /></a>
+  <a href="mailto:waqar302iqbal@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/waqar-iqbal-720208286/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</p>
 
 ---
 
-# 💻 Tech Stack
+## 💫 About Me
 
-### Languages
+I'm a Computer Science undergraduate at **COMSATS University Islamabad (Sahiwal Campus)** who builds **production-style AI systems**, not just notebooks.
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+My work sits at the intersection of **LLM agents and backend engineering**: I design the FastAPI services, data models and tool-calling layers that let agents do real work — answer phone calls, screen resumes, analyze stocks, or query enterprise documents securely.
+
+- 🤖 **Agentic AI** — multi-agent pipelines with LangGraph (ReAct pattern), Google ADK, CrewAI-style crews, and the Google **A2A protocol** for agent-to-agent communication
+- 📚 **RAG systems** — enterprise retrieval with ChromaDB & Weaviate, HuggingFace embeddings, role-based access control (RBAC) and JWT-secured APIs
+- 🎙️ **Voice AI** — real-time phone agents with VAPI, Twilio, Deepgram (STT/TTS) and Groq-hosted Llama models
+- ⚙️ **Automation** — no-code / low-code AI agents in **n8n** (WhatsApp support bots, AI recruiters, business workflows)
+- 🔌 **Tooling** — MCP servers, NL→SQL agents, web-scraping tools, fine-tuning experiments
+
+Currently exploring: **MCP & A2A interoperability, enterprise RAG architectures, and deploying agents on cloud infra.**
 
 ---
 
-### Backend & Frameworks
+## 🚀 Featured Projects
+
+| Project | What it does | Stack |
+|---|---|---|
+| 🔧 [**AppliFix Voice AI**](https://github.com/iqbal-waqar/AppliFix-voice-Ai) | Inbound voice agent that diagnoses home-appliance issues over the phone and books technician visits end-to-end | VAPI · Twilio · Deepgram · Groq Llama 3.3 70B · FastAPI · PostgreSQL · SQLAlchemy · Alembic |
+| 🏥 [**Vapi Appointment System**](https://github.com/iqbal-waqar/Vapi-voice-agent-appointment-system) | Hospital appointment scheduling through natural voice calls | VAPI · FastAPI · Streamlit |
+| 🛡️ [**FinGuard**](https://github.com/iqbal-waqar/FinGuard) | RBAC RAG chatbot — 6 roles, department-segregated knowledge, JWT auth, agentic tool selection | FastAPI · LangGraph · ChromaDB · HuggingFace · Groq · Streamlit |
+| 📊 [**Financial Analysis Agent Crew**](https://github.com/iqbal-waqar/Financial-Analysis-Agent-Crew) | 3-agent ReAct pipeline (Researcher → Analyst → Writer) producing equity research from live market data | LangGraph · LangChain · Finnhub · yfinance · FastAPI · Streamlit |
+| 🧠 [**Weaviate RAG**](https://github.com/iqbal-waqar/weaviate-rag-backend) ([frontend](https://github.com/iqbal-waqar/weaviate-rag-frontend)) | Production-ready RAG backend on a vector DB with a decoupled Streamlit UI | FastAPI · Weaviate · Groq · Streamlit |
+| 🤝 [**Google A2A Protocol**](https://github.com/iqbal-waqar/Google-A2A-Protocol) | Reference implementations of the Agent2Agent open standard for discovery, messaging & orchestration | Python · A2A |
+| 🧩 [**Google ADK Agent**](https://github.com/iqbal-waqar/Google-ADK-Agent) | Agents built with Google's Agent Development Kit | Google ADK · Python |
+| 🔌 [**MCP Server**](https://github.com/iqbal-waqar/MCP-SERVER) | AI web-scraper exposed as a Model Context Protocol server | MCP · Python |
+| 📈 [**VizBot**](https://github.com/iqbal-waqar/VizBot) | AI-powered exploratory data analysis platform | Python · LLMs · Pandas |
+| 🗃️ [**NLP-SQL Agent**](https://github.com/iqbal-waqar/NLP-SQL-AGENT) | Natural language → SQL agent over relational databases | Python · LangChain · SQL |
+| ✉️ [**CorpMail Agent**](https://github.com/iqbal-waqar/CorpMail-Agent) | Agentic corporate email drafting & sending | Python · LLM agents |
+| 🧑‍💼 [**Recruiter AI Agent**](https://github.com/iqbal-waqar/Recruiter-AI-AGENT-n8n) · [**WhatsApp Support Bot**](https://github.com/iqbal-waqar/Whatsapp-Ai-Agent-Chatbot-n8n) | No-code AI agents for resume screening and WhatsApp customer support | n8n |
+
+<details>
+<summary>More projects</summary>
+
+- [Rag_Project](https://github.com/iqbal-waqar/Rag_Project), [Agentic-Rag](https://github.com/iqbal-waqar/Agentic-Rag), [RAG-CONCEPT](https://github.com/iqbal-waqar/RAG-CONCEPT), [DocuTube](https://github.com/iqbal-waqar/DocuTube) — RAG explorations
+- [Researcher-Genie](https://github.com/iqbal-waqar/Researcher-Genie), [News-Genie](https://github.com/iqbal-waqar/News-Genie) (AI journalist), [Agentic-Chatbot](https://github.com/iqbal-waqar/Agentic-Chatbot), [basic-voice-agent](https://github.com/iqbal-waqar/basic-voice-agent)
+- [Fine-Tuning](https://github.com/iqbal-waqar/Fine-Tuning) — LLM fine-tuning notebooks
+- [N8N-AUTOMATIONS](https://github.com/iqbal-waqar/N8N-AUTOMATIONS) — workflow collection
+- [Elevvo-Pathways](https://github.com/iqbal-waqar/Elevvo-Pathways) — internship tasks
+</details>
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+**AI / Agents**
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![A2A](https://img.shields.io/badge/A2A_Protocol-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+
+**Voice AI**
+
+![VAPI](https://img.shields.io/badge/VAPI-5DFECA?style=for-the-badge&logoColor=black)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
+![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=for-the-badge&logoColor=black)
+
+**Backend & Data**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logoColor=white)
+![Weaviate](https://img.shields.io/badge/Weaviate-00C853?style=for-the-badge&logoColor=white)
 
----
+**Automation, Cloud & Tools**
 
-### Databases
-
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-
----
-
-### AI / ML
-
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
----
-
-### Cloud & Deployment
-
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-
----
-
-### Tools
-
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-# 📊 GitHub Stats
+## 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=iqbal-waqar&theme=dark)
-
-![](https://nirzak-streak-stats.vercel.app/?user=iqbal-waqar&theme=dark)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=iqbal-waqar&theme=dark&layout=compact)
-
----
-
-![](https://visitcount.itsvg.in/api?id=iqbal-waqar)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=iqbal-waqar&theme=tokyonight&hide_border=true&show_icons=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iqbal-waqar&theme=tokyonight&hide_border=true&layout=compact" height="165" />
+</p>
+<p align="center">
+  <img src="https://nirzak-streak-stats.vercel.app/?user=iqbal-waqar&theme=tokyonight&hide_border=true" height="165" />
+</p>
 
 ---
 
-⭐ Building intelligent AI systems with passion
+<p align="center">
+  💬 Open to collaborations on agentic AI, RAG and voice-AI projects — reach me at <a href="mailto:waqar302iqbal@gmail.com">waqar302iqbal@gmail.com</a>
+</p>
