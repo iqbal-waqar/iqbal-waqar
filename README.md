@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="[https://iqbal-waqar.github.io](https://waqariqbal.dev/)"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=white" /></a>
+  <a href="https://waqariqbal.dev/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=white" /></a>
   <a href="mailto:waqar302iqbal@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/waqar-iqbal-720208286/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
